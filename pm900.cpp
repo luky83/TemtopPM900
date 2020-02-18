@@ -88,3 +88,7 @@ uint16_t PM900::getpm2_5() {
 uint16_t PM900::getpm1() {
   return currentPacket.pm1;
 }
+
+void PM900::next(){
+	valid = false;
+}

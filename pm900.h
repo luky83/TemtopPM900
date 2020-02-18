@@ -49,6 +49,7 @@ class PM900 {
     uint16_t getpm10(void);
     uint16_t getpm2_5(void);
     uint16_t getpm1(void);
+	void next(void);
 
   private:
     HardwareSerial* serial;
